@@ -942,7 +942,7 @@ td {
 <pre><code>SELECT nombre, apellido, codtra, numdirec
     FROM temple1
         INNER JOIN tdepar2 ON (temple1.dept = tdepar2.numdep)
-    WHERE salario &gt; 2000 AND feching &gt;= &#39;01/01/1975&#39;</code></pre>
+    WHERE salario &gt; 2000 AND feching &gt; &#39;01/01/1975&#39;</code></pre>
 <p>3.- Obtener una lista con el apellido, número de departamento y salario mensual de los empleados de los departamentos ‘A00’, ‘B01’, ‘C01’ y ‘D01’. La salida se quiere en orden descendente de salario dentro de cada departamento.</p>
 <pre><code>SELECT apellido, dept, salario
     FROM temple1
